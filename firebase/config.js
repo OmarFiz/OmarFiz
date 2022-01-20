@@ -1,11 +1,11 @@
-import firebase from "firebase/compat/app";
+/*import firebase from "firebase/compat/app";
 import "firebase/firestore";
 import "firebase/storage";
 import "firebase/auth";
 import React, { useEffect, useState } from "react";
 
 import { initializeApp } from "firebase/app"
-import { getFirestore } from "firebase/firestore"
+import { getFirestore } from "firebase/firestore"*/
 
 import firebase from 'firebase/app';
 import 'firebase/firestore';
