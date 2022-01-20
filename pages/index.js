@@ -2,7 +2,7 @@ import Image from "next/image";
 import { storage } from "../firebase/config";
 import { getStorage, ref, listAll } from "firebase/storage";
 
-const storage = getStorage();
+//const storage = getStorage();
 
 // Create a reference under which you want to list
 const listRef = ref(storage, 'files/uid');
