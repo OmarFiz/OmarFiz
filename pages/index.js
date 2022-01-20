@@ -14,30 +14,20 @@ querySnapshot.forEach((doc) => {
 
 });*/
 
-/*
+
 async getMarkers() {
   const markers = [];
-  await firebase.firestore().collection('db').get()
+   //firebase.firestore().collection('db').get()
+   db.get()
     .then(querySnapshot => {
       querySnapshot.docs.forEach(doc => {
       markers.push(doc.data());
     });
   });
   return markers;
-}*/
+}
 
-const booksRef = db.collection("points");
 
-booksRef
-  .get()
-  .then((snapshot) => {
-    const data = snapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    }));
-    console.log("All data in 'books' collection", data); 
-    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
 
 /*async getMarkers() {
   const events = await firebase.firestore().collection('events').get()
