@@ -5,6 +5,30 @@ import { storage } from "../firebase/config";
 
 
 import { collection, getDocs } from "firebase/firestore";
+import firebase from "firebase/compat/app";
+import "firebase/firestore";
+import "firebase/storage";
+import "firebase/auth";
+import React, { useEffect, useState } from "react";
+
+import { initializeApp } from "firebase/app"
+import { getFirestore } from "firebase/firestore"
+const firebaseApp = initializeApp({
+
+//const config = {
+  apiKey: 'AIzaSyC_JwpXS4uj9sRRDrbFAtalE1QulNTmKnw',
+  authDomain: 'visualizer-new-devs-test.firebaseapp.com',
+  projectId: 'visualizer-new-devs-test',
+  storageBucket: 'visualizer-new-devs-test.appspot.com',
+  messagingSenderId: '702664185241',
+  appId: '1:702664185241:web:580752c50d570d0c89ef08'
+//}
+});
+
+const db = getFirestore();
+export { db };
+
+
 
 /*const querySnapshot = await getDocs(collection(db, "users"));
 querySnapshot.forEach((doc) => {
