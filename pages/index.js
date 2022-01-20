@@ -19,7 +19,6 @@ querySnapshot.forEach((doc) => {
         return doc.data();
 
 });
-return querySnapshot;
 
 
 /*async getMarkers() {
