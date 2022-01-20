@@ -2,7 +2,18 @@ import Image from "next/image";
 import { storage } from "../firebase/config";
 import { getStorage, ref, listAll } from "firebase/storage";
 
-//const storage = getStorage();
+
+
+import { collection, getDocs } from "firebase/firestore";
+
+const querySnapshot = await getDocs(collection(db, "users"));
+querySnapshot.forEach((doc) => {
+  console.log(`${doc.id} => ${doc.data()}`);
+});
+
+
+
+/*const storage = getStorage();
 
 // Create a reference under which you want to list
 const listRef = ref(storage, 'files/uid');
@@ -49,7 +60,7 @@ useEffect(() => {
     loadImages();
 }, []);
 
-  console.log(files);
+  console.log(files);*/
 
 
 export default function Home () {
