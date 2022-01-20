@@ -21,7 +21,7 @@ var firebaseConfig = {
   messagingSenderId: '702664185241',
   appId: '1:702664185241:web:580752c50d570d0c89ef08'
 //}
-});
+};
 firebase.initializeApp(firebaseConfig);
 
 //const db = getFirestore();
