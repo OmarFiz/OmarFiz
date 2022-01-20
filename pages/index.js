@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { db } from "../firebase/config";
+//import { db } from "../firebase/config";
 //import { getStorage, ref, listAll } from "firebase/storage";
 
 import firebase from 'firebase/compat/app';
@@ -21,8 +21,24 @@ firebase.initializeApp(firebaseConfig);
 
 //const db = getFirestore();
 const db = firebase.firestore();
-export { db };
+//export { db };
 
+//async getMarkers() {
+  //const markers = [];
+   db.collection('materials').get().then(querySnapshot => {
+     // querySnapshot.docs.forEach(doc => {
+      //markers.push(doc.data());
+    //});
+     const data = snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+  }));
+     console.log("All data in 'books' collection", data); 
+    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
+  });
+
+//  return markers;
+//}
 
 
 /*const querySnapshot = await getDocs(collection(db, "users"));
@@ -115,19 +131,3 @@ export default function Home () {
   )
 }
 
-//async getMarkers() {
-  const markers = [];
-   db.collection('materials').get().then(querySnapshot => {
-     // querySnapshot.docs.forEach(doc => {
-      //markers.push(doc.data());
-    //});
-     const data = snapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-  }));
-     console.log("All data in 'books' collection", data); 
-    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
-
-//  return markers;
-//}
