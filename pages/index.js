@@ -11,7 +11,7 @@ querySnapshot.forEach((doc) => {
   console.log(`${doc.id} => ${doc.data()}`);
 });*/
 
-async getMarkers() {
+/*async getMarkers() {
   const markers = [];
   await firebase.firestore().collection('events').get()
     .then(querySnapshot => {
@@ -20,7 +20,18 @@ async getMarkers() {
     });
   });
   return markers;
+}*/
+
+async getMarkers() {
+  const events = await firebase.firestore().collection('events')
+  events.get().then((querySnapshot) => {
+      const tempDoc = querySnapshot.docs.map((doc) => {
+        return { id: doc.id, ...doc.data() }
+      })
+      console.log(tempDoc)
+    })
 }
+
 
 
 /*const storage = getStorage();
