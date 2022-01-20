@@ -17,8 +17,7 @@ querySnapshot.forEach((doc) => {
 
 async getMarkers() {
   const markers = [];
-   //firebase.firestore().collection('db').get()
-   db.get().then(querySnapshot => {
+   firebase.firestore().collection('materials').get().then(querySnapshot => {
       querySnapshot.docs.forEach(doc => {
       markers.push(doc.data());
     });
