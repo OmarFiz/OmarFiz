@@ -4,33 +4,27 @@ import { storage } from "../firebase/config";
 
 
 
-import { collection, getDocs } from "firebase/firestore";
 
 
-const db = getFirestore();
-export { db };
-
-
-
-const querySnapshot = await getDocs(collection(db, "users"));
+/*const querySnapshot = await getDocs(collection(db, "users"));
 querySnapshot.forEach((doc) => {
   console.log(`${doc.id} => ${doc.data()}`);
           console.log('LOG 1', doc.data());
         return doc.data();
 
-});
+});*/
 
 
-/*async getMarkers() {
+async getMarkers() {
   const markers = [];
-  await firebase.firestore().collection('events').get()
+  await firebase.firestore().collection('db').get()
     .then(querySnapshot => {
       querySnapshot.docs.forEach(doc => {
       markers.push(doc.data());
     });
   });
   return markers;
-}*/
+}
 
 /*async getMarkers() {
   const events = await firebase.firestore().collection('events').get()
