@@ -23,15 +23,16 @@ querySnapshot.forEach((doc) => {
 }*/
 
 async getMarkers() {
-  const events = await firebase.firestore().collection('events')
-  events.get().then((querySnapshot) => {
-      const tempDoc = querySnapshot.docs.map((doc) => {
-        return { id: doc.id, ...doc.data() }
-      })
-      console.log(tempDoc)
-    })
+  const events = await firebase.firestore().collection('events').get()
+    .then(querySnapshot => {
+      querySnapshot.docs.map(doc => {
+        console.log('LOG 1', doc.data());
+        return doc.data();
+      });
+    });
+  console.log('LOG 2', events);
+  return events;
 }
-
 
 
 /*const storage = getStorage();
