@@ -15,22 +15,6 @@ querySnapshot.forEach((doc) => {
 });*/
 
 
-//async getMarkers() {
-  const markers = [];
-   db.collection('materials').get().then(querySnapshot => {
-     // querySnapshot.docs.forEach(doc => {
-      //markers.push(doc.data());
-    //});
-     const data = snapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-  }));
-     console.log("All data in 'books' collection", data); 
-    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
-
-//  return markers;
-//}
 
 
 
@@ -111,3 +95,20 @@ export default function Home () {
       </div>
   )
 }
+
+//async getMarkers() {
+  const markers = [];
+   db.collection('materials').get().then(querySnapshot => {
+     // querySnapshot.docs.forEach(doc => {
+      //markers.push(doc.data());
+    //});
+     const data = snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+  }));
+     console.log("All data in 'books' collection", data); 
+    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
+  });
+
+//  return markers;
+//}
