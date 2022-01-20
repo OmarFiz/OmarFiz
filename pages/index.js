@@ -14,7 +14,7 @@ querySnapshot.forEach((doc) => {
 
 });*/
 
-
+/*
 async getMarkers() {
   const markers = [];
   await firebase.firestore().collection('db').get()
@@ -24,7 +24,20 @@ async getMarkers() {
     });
   });
   return markers;
-}
+}*/
+
+const booksRef = db.collection("points");
+
+booksRef
+  .get()
+  .then((snapshot) => {
+    const data = snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    console.log("All data in 'books' collection", data); 
+    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
+  });
 
 /*async getMarkers() {
   const events = await firebase.firestore().collection('events').get()
