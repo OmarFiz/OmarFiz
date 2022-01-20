@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { storage } from "../firebase/config";
+import { db } from "../firebase/config";
 //import { getStorage, ref, listAll } from "firebase/storage";
 
 
