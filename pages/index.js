@@ -2,7 +2,26 @@ import Image from "next/image";
 import { db } from "../firebase/config";
 //import { getStorage, ref, listAll } from "firebase/storage";
 
+import firebase from 'firebase/compat/app';
+import 'firebase/firestore';
 
+
+//const firebaseApp = initializeApp({
+var firebaseConfig = {
+//const config = {
+  apiKey: 'AIzaSyC_JwpXS4uj9sRRDrbFAtalE1QulNTmKnw',
+  authDomain: 'visualizer-new-devs-test.firebaseapp.com',
+  projectId: 'visualizer-new-devs-test',
+  storageBucket: 'visualizer-new-devs-test.appspot.com',
+  messagingSenderId: '702664185241',
+  appId: '1:702664185241:web:580752c50d570d0c89ef08'
+//}
+};
+firebase.initializeApp(firebaseConfig);
+
+//const db = getFirestore();
+const db = firebase.firestore();
+export { db };
 
 
 
