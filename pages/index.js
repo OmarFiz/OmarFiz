@@ -3,7 +3,9 @@ import "../firebase/config";
 //import { getStorage, ref, listAll } from "firebase/storage";
 
 import {firebase} from 'firebase/app';
+import 'firebase/compat/app';
 import 'firebase/firestore';
+import 'firebase/compat/firestore'; 
 
 //const db = firebase.firestore();
 
