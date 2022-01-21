@@ -37,20 +37,29 @@ booksRef
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
-const bookRef2 = firebase.firestore().collection("materials").doc("R4eHqq0Zi1Hb6GrP8JuV");
 
 
 const mater = firebase
   .firestore()
-  .collection("books")
+  .collection("materials")
   .doc("R4eHqq0Zi1Hb6GrP8JuV");
 
 mater.get().then((doc) => {
  // if (!doc.exists) return;
-  console.log("Document data:", doc.data());
+  console.log("Document data R4eHqq0Zi1Hb6GrP8JuV:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
 });
 
+const materb = firebase
+  .firestore()
+  .collection("materials")
+  .doc("mTrveExUlJpsEInPt1KX");
+
+mater2b.get().then((doc) => {
+ // if (!doc.exists) return;
+  console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
+  // Document data: { title: 'The Great Gatsby' }
+});
 
 /*
 bookRef2.get().then((doc) => {
