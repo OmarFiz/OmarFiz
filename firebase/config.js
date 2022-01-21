@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"*/
 
-import initializeApp from 'firebase/app';
+import { initializeApp } from 'firebase/app';
 import 'firebase/firestore';
 
 
