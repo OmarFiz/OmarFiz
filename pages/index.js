@@ -1,12 +1,13 @@
 import  "../firebase/config";
 import Image from "next/image";
 
-dropdown.ddEventListener("click", () => {
-console.log("dropdown dropdown dropdown");
-});
 
      
 export default function Home () {
+     dropdown.ddEventListener("click", () => {
+console.log("dropdown dropdown dropdown");
+});
+
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2'>
       <h1>ESTUDIO CACTUS VISUALIZER TEST</h1>
