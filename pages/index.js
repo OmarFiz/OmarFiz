@@ -1,6 +1,7 @@
 import  "../firebase/config";
 import Image from "next/image";
-
+import firebase from 'firebase/app';
+ort 'firebase/firestore';
 //import { getStorage, ref, listAll } from "firebase/storage";
 /*
 import firebase from 'firebase/app';
