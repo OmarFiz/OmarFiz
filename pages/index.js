@@ -4,11 +4,10 @@ import Image from "next/image";
 
      
 export default function Home () {
-     const dropdownButton = document.querySelector("#dropdown");
 
-     dropdownButton.ddEventListener("click", () => {
-console.log("dropdown dropdown dropdown");
-});
+    const imageClick = () => {
+    console.log('Click!!!!');
+
 
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2'>
@@ -22,7 +21,8 @@ console.log("dropdown dropdown dropdown");
 
         />
      <Image 
-          id="dropdown"
+       id="finger" 
+       onClick={() => imageClick()
     top = {73}
     left = {34}
         src="/imagenes/fingerprint.png"
