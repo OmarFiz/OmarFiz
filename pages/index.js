@@ -4,7 +4,9 @@ import Image from "next/image";
 
      
 export default function Home () {
-     dropdown.ddEventListener("click", () => {
+     const dropdownButton = document.querySelector("#dropdown");
+
+     dropdownButton.ddEventListener("click", () => {
 console.log("dropdown dropdown dropdown");
 });
 
