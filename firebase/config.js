@@ -50,18 +50,18 @@ poin
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
 
-/*
+
 const poinpoin = firebase
   .firestore()
   .collection("points")
-  .doc("R4eHqq0Zi1Hb6GrP8JuV");
+  .doc("mTrveExUlJpsEInPt1KX");
 
 poinpoin.get().then((doc) => {
  // if (!doc.exists) return;
   console.log("POINT POINT R4eHqq0Zi1Hb6GrP8JuV:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
 });
-*/
+
 
 /*
 
