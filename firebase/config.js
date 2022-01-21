@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"*/
 
-import { initializeApp } from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 
@@ -22,10 +22,9 @@ var firebaseConfig = {
   appId: '1:702664185241:web:580752c50d570d0c89ef08'
 //}
 };
-//firebase.initializeApp(firebaseConfig);
-const db = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 //const db = getFirestore();
-//const db = firebase.firestore();
+const db = firebase.firestore();
 export { db };
 //export default config
 
