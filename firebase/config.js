@@ -37,7 +37,7 @@ booksRef
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
-const bookRef2 = firebase .firestore().collection("materials").doc("R4eHqq0Zi1Hb6GrP8JuV");
+const bookRef2 = firebase.firestore().collection("materials").doc("R4eHqq0Zi1Hb6GrP8JuV");
 
 bookRef2.get().then((doc) => {
  // if (!doc.exists) return;
