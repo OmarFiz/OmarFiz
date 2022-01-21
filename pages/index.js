@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "../firebase/config";
+import firestore from "../firebase/config";
 //import { getStorage, ref, listAll } from "firebase/storage";
 
 import {firebase} from 'firebase/app';
@@ -9,7 +9,8 @@ import 'firebase/compat/firestore';
 
 //const db = firebase.firestore();
 
-const booksRef = firebase.firestore().collection('materials');
+//const booksRef = firebase.firestore().collection('materials');
+const booksRef = firestore.collection('materials');
 booksRef
   .get()
   .then((snapshot) => {
