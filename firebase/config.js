@@ -23,6 +23,9 @@ var firebaseConfig = {
   appId: '1:702664185241:web:580752c50d570d0c89ef08'
 //}
 };
+firebase.initializeApp(firebaseConfig);
+
+
 const booksRef = firebase.firestore().collection('materials');
 booksRef
   .get()
@@ -35,7 +38,6 @@ booksRef
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
 
-firebase.initializeApp(firebaseConfig);
 /*
 const booksRef = firebase.firestore().collection('pointId');
 booksRef
