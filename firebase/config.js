@@ -38,7 +38,7 @@ booksRef
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
 
-const poin = firebase.firestore().collection('materials');
+const poin = firebase.firestore().collection('points');
 poin
   .get()
   .then((snapshot) => {
