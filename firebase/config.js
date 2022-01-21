@@ -25,7 +25,7 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 
-const booksRef = firebase.firestore().collection('materials');
+const booksRef = firebase.firestore().collection('pointId');
 booksRef
   .get()
   .then((snapshot) => {
