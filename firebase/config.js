@@ -62,7 +62,7 @@ poinpoin.get().then((doc) => {
 });
 
 
-
+/*
 
 const mater = firebase
   .firestore()
@@ -85,56 +85,4 @@ materb.get().then((doc) => {
   console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
 });
-
-/*
-bookRef2.get().then((doc) => {
- // if (!doc.exists) return;
-  console.log("Document data R4eHqq0Zi1Hb6GrP8JuV:", doc.data());
-  // Document data: { title: 'The Great Gatsby' }
-});
-
-
-const bookRef3 = firebase.firestore().collection("materials").doc("mTrveExUlJpsEInPt1KX");
-bookRef3.get().then((doc) => {
-//  if (!doc.exists) return;
-  console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
-  // Document data: { title: 'The Great Gatsby' }
-});
 */
-
-/*
-const booksRef = firebase.firestore().collection('pointId');
-booksRef
-  .get()
-  .then((snapshot) => {
-    const data = snapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    }));
-    console.log("All data in 'books' collection", data); 
-    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
-
-*/
-//const db = getFirestore();
-//const db = firebase.firestore();
-//const firestore = firebase.firestore();
-/*firestore.settings({
-  ssl: false,
-  timestampsInSnapshots: true
-})*/
-
-//export default firestore;
-
-//export { db ,firestore };
-//export default config
-
-/*if (firebase.apps.length === 0) {
-  firebase.initializeApp(config);
-}
-
-const auth = firebase.auth();
-const db = firebase.firestore();
-const storage = firebase.storage();
-
-export { db, storage, auth };*/
