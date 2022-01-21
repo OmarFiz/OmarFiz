@@ -1,8 +1,8 @@
-import firestore from "../firebase/config";
+import  "../firebase/config";
 import Image from "next/image";
 
 //import { getStorage, ref, listAll } from "firebase/storage";
-
+/*
 import firebase from 'firebase/app';
 import 'firebase/compat/app';
 import 'firebase/firestore';
@@ -20,7 +20,7 @@ booksRef
     }));
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
+  });*/
 
 //async getMarkers() {
   //const markers = [];
