@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"*/
-import 'firebase/compat/app';
+import  firebase from 'firebase/compat/app';
 import 'firebase/app';
 import 'firebase/compat/firestore';
 import 'firebase/firestore';
@@ -25,7 +25,7 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 
-/*
+
 const booksRef = firebase.firestore().collection('materials');
 booksRef
   .get()
@@ -37,7 +37,6 @@ booksRef
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
-    console.log("All data in 'books' collection2", booksRef); */
 
 /*
 const booksRef = firebase.firestore().collection('pointId');
