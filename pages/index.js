@@ -1,18 +1,19 @@
 import  "../firebase/config";
 import Image from "next/image";
 
+class MyComponent extends React.Component {      
 
-render () {
-        const imageClick = () => {
-          console.log('Click');
-        } 
-        return (
-           <div>
-              <img src={require('/imagenes/fingerprint.png')} onClick={() => imageClick()} />
-           </div>
-        );
-     }
-
+        render () {
+                const imageClick = () => {
+                  console.log('Click');
+                } 
+                return (
+                   <div>
+                      <img src={require('/imagenes/fingerprint.png')} onClick={() => imageClick()} />
+                   </div>
+                );
+             }
+}
      
 export default function Home () {
   return (
