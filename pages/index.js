@@ -14,6 +14,15 @@ export default function Home () {
       //height={442}
         alt="visualizer_room"
         />
+     <Image 
+    top = 73
+    left =34
+        src="/imagenes/fingerprint.png"
+      //  layout="fill" 
+    width={88}
+      height={88}
+        alt="visualizer_room"
+        />
       </div>
   )
 }
