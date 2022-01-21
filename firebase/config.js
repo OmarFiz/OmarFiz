@@ -24,7 +24,7 @@ var firebaseConfig = {
 //}
 };
 firebase.initializeApp(firebaseConfig);
-
+/*
 const booksRef = firebase.firestore().collection('pointId');
 booksRef
   .get()
@@ -46,7 +46,7 @@ bookRef2.get().then((doc) => {
   if (!doc.exists) return;
   console.log("Document data:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
-});
+});*/
 //const db = getFirestore();
 //const db = firebase.firestore();
 //const firestore = firebase.firestore();
