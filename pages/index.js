@@ -16,7 +16,6 @@ export default function Home () {
     id="vis"
         />
      <Image 
-    position= {absolute}
     top = {73*vis.height/100}
     left = {34}
         src="/imagenes/fingerprint.png"
