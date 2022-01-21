@@ -10,8 +10,7 @@ import 'firebase/compat/firestore';
 
 //const db = firebase.firestore();
 
-//const booksRef = firebase.firestore().collection('materials');
-const booksRef = firestore.collection('materials');
+const booksRef = firebase.firestore().collection('materials');
 booksRef
   .get()
   .then((snapshot) => {
