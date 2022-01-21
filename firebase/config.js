@@ -6,8 +6,9 @@ import React, { useEffect, useState } from "react";
 
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"*/
-
+import firebase from 'firebase/compat/app';
 import firebase from 'firebase/app';
+import 'firebase/compat/firestore';
 import 'firebase/firestore';
 
 
@@ -24,7 +25,7 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 //const db = getFirestore();
-const db = firebase.firestore();
+//const db = firebase.firestore();
 const firestore = firebase.firestore();
 /*firestore.settings({
   ssl: false,
