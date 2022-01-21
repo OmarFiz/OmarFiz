@@ -31,7 +31,7 @@ booksRef
   }));
      console.log("All data in 'books' collection", data); */
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
+ // });
 
 //  return markers;
 //}
