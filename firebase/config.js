@@ -38,6 +38,19 @@ booksRef
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
 
+const poin = firebase.firestore().collection('materials');
+poin
+  .get()
+  .then((snapshot) => {
+    const data = snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    console.log("All poin collection", data); 
+    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
+  });
+
+
 
 const mater = firebase
   .firestore()
