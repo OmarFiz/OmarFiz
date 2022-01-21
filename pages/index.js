@@ -2,7 +2,18 @@ import  "../firebase/config";
 import Image from "next/image";
 
 
+render () {
+        const imageClick = () => {
+          console.log('Click');
+        } 
+        return (
+           <div>
+              <img src={require('/imagenes/fingerprint.png')} onClick={() => imageClick()} />
+           </div>
+        );
+     }
 
+     
 export default function Home () {
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2'>
@@ -16,13 +27,14 @@ export default function Home () {
 
         />
      <Image 
-    top = {73%}
+    top = {73}
     left = {34}
         src="/imagenes/fingerprint.png"
       //  layout="fill" 
     width={88}
       height={88}
         alt="visualizer_room"
+onClick={() => imageClick()
         />
       </div>
   )
