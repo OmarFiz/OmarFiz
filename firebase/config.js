@@ -55,7 +55,7 @@ const materb = firebase
   .collection("materials")
   .doc("mTrveExUlJpsEInPt1KX");
 
-mater2b.get().then((doc) => {
+materb.get().then((doc) => {
  // if (!doc.exists) return;
   console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
