@@ -3,17 +3,6 @@ import Image from "next/image";
 //import firebase from 'firebase/app';
 //import 'firebase/firestore';
 
-const booksRef = firebase.firestore().collection('materials');
-booksRef
-  .get()
-  .then((snapshot) => {
-    const data = snapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
-    }));
-    console.log("All data in 'books' collection", data); 
-    // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
-  });
 
 
 //import { getStorage, ref, listAll } from "firebase/storage";
