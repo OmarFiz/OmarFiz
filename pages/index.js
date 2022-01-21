@@ -30,7 +30,6 @@ console.log("dropdown dropdown dropdown");
     width={88}
       height={88}
         alt="visualizer_room"
-onClick="return check()"
         />
       </div>
   )
