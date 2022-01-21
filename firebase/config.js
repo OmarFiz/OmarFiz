@@ -37,7 +37,7 @@ booksRef
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
-const bookRef2 = firebase .firestore().collection("books").doc("R4eHqq0Zi1Hb6GrP8JuV");
+const bookRef2 = firebase .firestore().collection("materials").doc("R4eHqq0Zi1Hb6GrP8JuV");
 
 bookRef2.get().then((doc) => {
  // if (!doc.exists) return;
@@ -46,7 +46,7 @@ bookRef2.get().then((doc) => {
 });
 
 
-const bookRef3 = firebase.firestore().collection("books").doc("mTrveExUlJpsEInPt1KX");
+const bookRef3 = firebase.firestore().collection("materials").doc("mTrveExUlJpsEInPt1KX");
 bookRef3.get().then((doc) => {
 //  if (!doc.exists) return;
   console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
