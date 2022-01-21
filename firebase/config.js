@@ -39,6 +39,20 @@ booksRef
   });
 const bookRef2 = firebase.firestore().collection("materials").doc("R4eHqq0Zi1Hb6GrP8JuV");
 
+
+const mater = firebase
+  .firestore()
+  .collection("books")
+  .doc("R4eHqq0Zi1Hb6GrP8JuV");
+
+mater.get().then((doc) => {
+ // if (!doc.exists) return;
+  console.log("Document data:", doc.data());
+  // Document data: { title: 'The Great Gatsby' }
+});
+
+
+/*
 bookRef2.get().then((doc) => {
  // if (!doc.exists) return;
   console.log("Document data R4eHqq0Zi1Hb6GrP8JuV:", doc.data());
@@ -52,7 +66,7 @@ bookRef3.get().then((doc) => {
   console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
 });
-
+*/
 
 /*
 const booksRef = firebase.firestore().collection('pointId');
