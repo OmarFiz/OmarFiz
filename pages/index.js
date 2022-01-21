@@ -1,10 +1,11 @@
 import Image from "next/image";
-import { db } from "../firebase/config";
+import "../firebase/config";
 //import { getStorage, ref, listAll } from "firebase/storage";
 
 import firebase from 'firebase/compat/app';
 import 'firebase/firestore';
 
+const db = firebase.firestore();
 
 const booksRef = firebase.firestore().collection('materials');
 booksRef
