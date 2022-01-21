@@ -50,6 +50,7 @@ poin
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
 
+/*
 const poinpoin = firebase
   .firestore()
   .collection("points")
@@ -60,7 +61,7 @@ poinpoin.get().then((doc) => {
   console.log("POINT POINT R4eHqq0Zi1Hb6GrP8JuV:", doc.data());
   // Document data: { title: 'The Great Gatsby' }
 });
-
+*/
 
 /*
 
