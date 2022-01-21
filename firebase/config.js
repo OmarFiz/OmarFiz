@@ -26,13 +26,13 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 //const db = getFirestore();
 //const db = firebase.firestore();
-const firestore = firebase.firestore();
+//const firestore = firebase.firestore();
 /*firestore.settings({
   ssl: false,
   timestampsInSnapshots: true
 })*/
 
-export default firestore;
+//export default firestore;
 
 //export { db ,firestore };
 //export default config
