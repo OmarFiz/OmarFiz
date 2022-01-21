@@ -7,7 +7,7 @@ export default function Home () {
 
     const imageClick = () => {
     console.log('Click!!!!');
-
+    } 
 
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2'>
