@@ -37,6 +37,7 @@ booksRef
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
+    console.log("All data in 'books' collection2", booksRef); 
 
 /*
 const booksRef = firebase.firestore().collection('pointId');
