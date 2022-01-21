@@ -1,7 +1,7 @@
 import  "../firebase/config";
 import Image from "next/image";
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+//import firebase from 'firebase/app';
+//import 'firebase/firestore';
 
 const booksRef = firebase.firestore().collection('materials');
 booksRef
