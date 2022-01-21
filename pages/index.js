@@ -1,19 +1,10 @@
 import  "../firebase/config";
 import Image from "next/image";
 
-class MyComponent extends React.Component {      
+dropdown.ddEventListener("click", () => {
+console.log("dropdown dropdown dropdown");
+});
 
-        render () {
-                const imageClick = () => {
-                  console.log('Click');
-                } 
-                return (
-                   <div>
-                      <img src={require('/imagenes/fingerprint.png')} onClick={() => imageClick()} />
-                   </div>
-                );
-             }
-}
      
 export default function Home () {
   return (
@@ -28,6 +19,7 @@ export default function Home () {
 
         />
      <Image 
+          id="dropdown"
     top = {73}
     left = {34}
         src="/imagenes/fingerprint.png"
@@ -35,7 +27,7 @@ export default function Home () {
     width={88}
       height={88}
         alt="visualizer_room"
-onClick={() => imageClick()
+onClick="return check()"
         />
       </div>
   )
