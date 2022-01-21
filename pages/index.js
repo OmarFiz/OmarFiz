@@ -7,7 +7,7 @@ export default function Home () {
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2'>
       <h1>ESTUDIO CACTUS VISUALIZER TEST</h1>
-       <Image class="w-16 md:w-32 lg:w-48"
+       <Image class="h-48 w-full object-cover md:h-full md:w-48" 
         src="/imagenes/test_room.png"
       //  layout="fill" 
     //width={620}
