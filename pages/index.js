@@ -13,10 +13,10 @@ export default function Home () {
     //width={620}
       //height={442}
         alt="visualizer_room"
-    id="vis"
+
         />
      <Image 
-    top = {73*vis.height/100}
+    top = {73%}
     left = {34}
         src="/imagenes/fingerprint.png"
       //  layout="fill" 
