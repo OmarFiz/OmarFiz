@@ -37,6 +37,27 @@ booksRef
     console.log("All data in 'books' collection", data); 
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
+const bookRef2 = firebase
+  .firestore()
+  .collection("books")
+  .doc("R4eHqq0Zi1Hb6GrP8JuV");
+
+bookRef2.get().then((doc) => {
+  if (!doc.exists) return;
+  console.log("Document data R4eHqq0Zi1Hb6GrP8JuV:", doc.data());
+  // Document data: { title: 'The Great Gatsby' }
+});
+const bookRef3 = firebase
+  .firestore()
+  .collection("books")
+  .doc("mTrveExUlJpsEInPt1KX");
+
+bookRef3.get().then((doc) => {
+  if (!doc.exists) return;
+  console.log("Document data mTrveExUlJpsEInPt1KX:", doc.data());
+  // Document data: { title: 'The Great Gatsby' }
+});
+
 
 /*
 const booksRef = firebase.firestore().collection('pointId');
@@ -51,16 +72,7 @@ booksRef
     // [ { id: 'glMeZvPpTN1Ah31sKcnj', title: 'The Great Gatsby' } ]
   });
 
-const bookRef2 = firebase
-  .firestore()
-  .collection("books")
-  .doc("fa758e942162a1eb");
-
-bookRef2.get().then((doc) => {
-  if (!doc.exists) return;
-  console.log("Document data:", doc.data());
-  // Document data: { title: 'The Great Gatsby' }
-});*/
+*/
 //const db = getFirestore();
 //const db = firebase.firestore();
 //const firestore = firebase.firestore();
