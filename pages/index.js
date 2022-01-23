@@ -24,10 +24,10 @@ export default function Home () {
         document.getElementById('maskstaupe').style.visibility = 'visible';
     } 
   const layerreset = () => {
-    console.log('layertaupe!!!!');
-        document.getElementById('masksalmond').style.visibility = 'invisible';
-        document.getElementById('masksnatural').style.visibility = 'invisible';
-        document.getElementById('maskstaupe').style.visibility = 'invisible';
+    console.log('layerreset!!!!');
+        document.getElementById('masksalmond').style.visibility = 'hidden';
+        document.getElementById('masksnatural').style.visibility = 'hidden';
+        document.getElementById('maskstaupe').style.visibility = 'hidden';
     } 
 
   return (
