@@ -10,9 +10,9 @@ export default function Home () {
     } 
 
   return (
-<div class="bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
-  <div class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-7 sm:h-8" /></div>
-  <div class="w-1/4 h-1/4 absolute top-1/4 left-2/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-7 sm:h-8" /></div>
+<div class="container mx-auto relative bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
+  <div class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14" /></div>
+  <div class="w-1/4 h-1/4 absolute top-1/4 left-2/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14" /></div>
 </div>     
 /*<div class="bg-base-pict min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
