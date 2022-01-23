@@ -14,7 +14,7 @@ export default function Home () {
        <div class="w-1/4 h-1/4 absolute top-4/5 left-1/5 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14" /></div>
        <div class="w-1/4 h-1/4 absolute top-2/5 left-4/6 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14" /></div>
 
-       <div class="relative top-1/2 right-0 flex overflow-y-auto h-32 space-y-8 object-none object-right">
+       <div class="absolute top-1/2 right-0 flex overflow-y-auto h-32 space-y-8 object-none object-right">
             <section>
               <span><span>Tanzania Almond</span><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-14 w-14" alt="" /></span>
             </section>
