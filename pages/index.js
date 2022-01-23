@@ -13,8 +13,8 @@ export default function Home () {
 <div class="container mx-auto relative bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
        <div class="w-1/4 h-1/4 absolute top-34% left-73% rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:bg-pink" /></div>
        <div class="w-1/4 h-1/4 absolute top-90% left-16% rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:bg-gray" /></div>
-</div>    
-<div class="relative top-1/2 right-0 flex overflow-y-auto h-32 space-y-8 object-none object-right">
+ 
+<div class="absolute top-1/2 right-0 flex overflow-y-auto h-32 space-y-8 object-none object-right">
             <section>
               <span><span>Tanzania Almond</span><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-14 w-14" alt="" /></span>
             </section>
@@ -27,7 +27,7 @@ export default function Home () {
               <span>Tanzania Taupe</span>
             </section>
 </div>
-       
+ </div>         
 /*<div class="bg-base-pict min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
     <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200">
