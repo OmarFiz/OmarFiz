@@ -11,9 +11,7 @@ export default function Home () {
 
     const imageClick = () => {
     console.log('Click!!!!');
-       //  document.getElementById("surprise").innerHTML="<Image src='/imagenes/test_room.png' alt='Logo' top = {10} left = {10} width={88} height={88} />";
-var node = document.getElementById('maskscrol')
-        node.style.visibility = 'visible';
+        document.getElementById('maskscrol').style.visibility = 'visible';
 
          console.log('Claaaaack!!!!');       
         
