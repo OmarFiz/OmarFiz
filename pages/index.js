@@ -10,23 +10,23 @@ export default function Home () {
         document.getElementById('maskscrol').style.visibility = 'visible';
     } 
      const layeralmond = () => {
-    console.log('Claaaaack!!!!');
-        document.getElementById('masksnatural').style.visibility = 'invisible';
-        document.getElementById('maskstaupe').style.visibility = 'invisible';
+    console.log('layeralmond!!!!');
+      //  document.getElementById('masksnatural').style.visibility = 'invisible';
+      //  document.getElementById('maskstaupe').style.visibility = 'invisible';
         document.getElementById('masksalmond').style.visibility = 'visible';
 
     } 
      const layernatural = () => {
-    console.log('cleeeeeek!!!!');
-        document.getElementById('masksalmond').style.visibility = 'invisible';
-        document.getElementById('maskstaupe').style.visibility = 'invisible';
+    console.log('layernatural!!!!');
+     //   document.getElementById('masksalmond').style.visibility = 'invisible';
+     //   document.getElementById('maskstaupe').style.visibility = 'invisible';
         document.getElementById('masksnatural').style.visibility = 'visible';
 
     } 
      const layertaupe = () => {
-    console.log('cleeeeeek!!!!');
-        document.getElementById('masksalmond').style.visibility = 'invisible';
-        document.getElementById('masksnatural').style.visibility = 'invisible';
+    console.log('layertaupe!!!!');
+      //  document.getElementById('masksalmond').style.visibility = 'invisible';
+       // document.getElementById('masksnatural').style.visibility = 'invisible';
         document.getElementById('maskstaupe').style.visibility = 'visible';
     } 
 
@@ -40,7 +40,7 @@ export default function Home () {
      <div class="w-1/4 h-1/4 absolute top-1/3 left-3/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick()}/></div>
      <div class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" /></div>
     
-     <div id="maskscrol"  class="absolute invisible h-32 scroll-snap-type-y-mandatory w-auto bg-brown-100 rounded-full border-20">
+     <div id="maskscrol"  class="absolute invisible h-32 scroll-snap-type-y-mandatory w-auto bg-brown-100 rounded-full border-1">
                  <section>
                    <span class="inline-block"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()} /></span>
                     <span > Tanzania Almond</span>
