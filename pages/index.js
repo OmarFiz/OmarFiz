@@ -11,7 +11,7 @@ export default function Home () {
 
   return (
   <div class="container mx-auto bg-base-pict w-1/2 p-4 relative">
-  <img src="http://placehold.it/300" alt="" class="w-full h-auto">
+  //<img src="http://placehold.it/300" alt="" class="w-full h-auto">
   <div class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-7 sm:h-8" /></div>
   <div class="w-1/4 h-1/4 absolute top-1/4 left-2/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-7 sm:h-8" /></div>
 </div>     
