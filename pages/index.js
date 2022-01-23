@@ -16,7 +16,7 @@ export default function Home () {
 
   return (
 <div class="container mx-auto relative bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
-//<div id="masksalmond" class="container invisible mx-auto relative bg-layer-almond h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
+<div id="masksalmond" class="container invisible mx-auto relative bg-layer-almond h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
 //<div class="container mx-auto relative bg-layer-natural h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
 //<div class="container mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
 
@@ -38,11 +38,13 @@ export default function Home () {
                    <span class="inline-block"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187566938%2Fpreview?alt=media&token=ed0af5cc-aca5-4ae5-84f3-699d6d1710b4" class=" h-14 w-14" alt="" /></span>
                    <span>Tanzania Taupe</span>
                  </section>
-     </div>
- </div>     
+  //   </div>
+ //</div>     
 </div>  
 </div>  
 </div>  
+
+
 /*<div class="bg-base-pict min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
     <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200">
