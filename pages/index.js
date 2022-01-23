@@ -7,10 +7,6 @@ export default function Home () {
 
     const imageClick = () => {
     console.log('Click!!!!');
-    } 
-
-    const imageClick = () => {
-    console.log('Click!!!!');
         document.getElementById('maskscrol').style.visibility = 'visible';
 
          console.log('Claaaaack!!!!');       
