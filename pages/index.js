@@ -8,25 +8,26 @@ export default function Home () {
     const imageClick = () => {
     console.log('Click!!!!');
         document.getElementById('maskscrol').style.visibility = 'visible';
-
-         console.log('Claaaaack!!!!');       
-        
     } 
-    
+     const layeralmond = () => {
+    console.log('Claaaaack!!!!');
+        document.getElementById('masksalmond').style.visibility = 'visible';
+    } 
+
   return (
 <div class="container mx-auto relative bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
-<div class="container mx-auto relative bg-layer-almond h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
-<div class="container mx-auto relative bg-layer-natural h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
-<div class="container mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
+<div id="maskscrol" class="container invisible mx-auto relative bg-layer-almond h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
+//<div class="container mx-auto relative bg-layer-natural h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
+//<div class="container mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
 
        
        
        <div class="w-1/4 h-1/4 absolute top-1/3 left-3/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick()}/></div>
        <div class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" /></div>
 
-     <div id="maskscrol"  class="absolute invisible h-32 scroll-snap-type-y-mandatory w-full">
+     <div id="masksalmond"  class="absolute invisible h-32 scroll-snap-type-y-mandatory w-full bg-gray-100 rounded-full border-2">
                  <section>
-                   <span class="inline-block"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-14 w-14" alt="" /></span>
+                   <span class="inline-block"><img onClick={() => layeralmond()} src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-14 w-14" alt="" /></span>
                     <span >Tanzania Almond</span>
                  </section>
                  <section>
