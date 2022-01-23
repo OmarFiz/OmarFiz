@@ -11,28 +11,27 @@ export default function Home () {
     } 
      const layeralmond = () => {
     console.log('layeralmond!!!!');
-      //  document.getElementById('masksnatural').style.visibility = 'invisible';
-      //  document.getElementById('maskstaupe').style.visibility = 'invisible';
         document.getElementById('masksalmond').style.visibility = 'visible';
 
     } 
      const layernatural = () => {
     console.log('layernatural!!!!');
-     //   document.getElementById('masksalmond').style.visibility = 'invisible';
-     //   document.getElementById('maskstaupe').style.visibility = 'invisible';
         document.getElementById('masksnatural').style.visibility = 'visible';
 
     } 
      const layertaupe = () => {
     console.log('layertaupe!!!!');
-      //  document.getElementById('masksalmond').style.visibility = 'invisible';
-       // document.getElementById('masksnatural').style.visibility = 'invisible';
         document.getElementById('maskstaupe').style.visibility = 'visible';
     } 
-
+  const layerreset = () => {
+    console.log('layertaupe!!!!');
+        document.getElementById('masksalmond').style.visibility = 'invisible';
+        document.getElementById('masksnatural').style.visibility = 'invisible';
+        document.getElementById('maskstaupe').style.visibility = 'invisible';
+    } 
 
   return (
-<div class="container mx-auto relative bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12">
+<div class="container mx-auto relative bg-base-pict h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12" onClick={() => layerreset()}>
 <div id="masksalmond" class="container invisible mx-auto relative bg-layer-almond h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12" />
 <div id="masksnatural" class="container invisible mx-auto relative bg-layer-natural h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
 <div id="maskstaupe" class="container invisible mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
