@@ -6,13 +6,13 @@ import Image from "next/image";
 export default function Home () {
 
     const imageClick1 = () => {
-    console.log('imageClick1!!!!' +ev);
+    console.log('imageClick1!!!!' +id);
         document.getElementById('maskscrol').style.visibility = 'visible';
         document.getElementById('fingerprint1').style.visibility = 'hidden';
         document.getElementById('fingerprint2').style.visibility = 'hidden';
     } 
         const imageClick2 = () => {
-    console.log('imageClick2!!!!');
+    console.log('imageClick2!!!!'+id);
         document.getElementById('maskscrol').style.visibility = 'visible';
     } 
 
