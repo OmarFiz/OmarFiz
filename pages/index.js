@@ -8,7 +8,7 @@ export default function Home () {
 
 
     const imageClick1 = () => {
-         document.getElementById('fingerprint1').onclick = console.log("Button clicked, id "+this.id+", text"+this.innerHTML);
+         document.getElementById('fingerprint1').onclick = console.log("Button clicked, id "+this.innerHTML);
              console.log('imageClick1!!!!');
 
         document.getElementById('maskscrol').style.visibility = 'visible';
