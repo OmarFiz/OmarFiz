@@ -68,13 +68,13 @@ export default function Home () {
 
    <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory">
                <button>
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36"  fill="none" viewBox="0 0 24 24">
-                      <path stroke-transparent stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-18"  fill="none" viewBox="0 0 20 20">
+                      <path stroke='white' stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                  //<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>
                </button>
                  <section class=" h-20 w-20 bg-white-100">
-                   <span class="inline-block"><img class="inline-block bg-white mt-4 ml-4 mb-4 mr-4  rounded-full border-1" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()}/></span>
+                   <span class="inline-block"><img class="h-20 w-20  bg-white mt-4 ml-4 mb-4 mr-4 rounded-full border-1" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" alt="" onClick={() => layeralmond()}/></span>
                    <span class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold"> Tanzania Almond</span>
                  </section>
                  <section  class="bg-gray-100 rounded-full border-1">
@@ -87,7 +87,7 @@ export default function Home () {
                  </section>
                <button class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" >
-               <path stroke-white stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+               <path stroke='white' stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                </svg>
                </button>
      </div>
