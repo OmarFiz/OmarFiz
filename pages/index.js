@@ -34,10 +34,10 @@ export default function Home () {
      
   const layerreset = () => {
     console.log('layerreset!!!!');
-       if(document.getElementById('flex')){
+       if(document.getElementsByClassName('flex')){
           console.log("hasClass flex")
        }
-       if(document.getElementById('flex')){
+       if(document.getElementsByClassName('flex')){
           console.log("hasClass container")
        }
        if(document.getElementById('masksalmond').clicked == true){
@@ -67,7 +67,7 @@ export default function Home () {
      <div id="fingerprint2" class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick2()}/></div>
 
  <div class="w-64 h-64 bg-red-100 relative">
-  <div class="absolute inset-0 bg-cover bg-center z-0" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/3/3c/JumanjiTheNextLevelTeaserPoster.jpg')"></div>
+  <div class="absolute inset-0 bg-cover bg-center z-0" ><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/></div>
   <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>
 </div>
 
