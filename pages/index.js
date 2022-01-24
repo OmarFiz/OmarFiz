@@ -68,8 +68,8 @@ export default function Home () {
   <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>
 </div>
 
-   /*  <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory">
-               <button>
+   <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory">
+              /*   <button>
                  <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36 bg-white-light"  viewBox="0 0 24 24" stroke="currentColor">
                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>*/
