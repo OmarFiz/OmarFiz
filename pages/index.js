@@ -73,8 +73,8 @@ export default function Home () {
                  //<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>
                </button>
-                 <section class=" h-20 w-20 bg-white-100 absolute">
-                   <span class="inline-block"><img class="inline-block bg-gray-100 rounded-full border-1" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()}/></span>
+                 <section class=" h-20 w-20 bg-white-100">
+                   <span class="inline-block"><img class="inline-block bg-white mt-4 ml-4 mb-4 mr-4  rounded-full border-1" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()}/></span>
                    <span class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold"> Tanzania Almond</span>
                  </section>
                  <section  class="bg-gray-100 rounded-full border-1">
