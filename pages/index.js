@@ -32,6 +32,8 @@ export default function Home () {
     } 
   const layerreset = () => {
     console.log('layerreset!!!!');
+       if(document.getElementById('basepict').hasClass('flex'){
+          console.log("hasClass hasClass hasClass")
        if(document.getElementById('masksalmond').clicked == true){
    console.log("masksalmond clicked")
      }
@@ -50,7 +52,7 @@ export default function Home () {
     } 
 
   return (
-<div id="basepict" class="container bg-base-pict mx-auto relative h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12" onClick={() => layerreset()}>       
+<div id="basepict" class="container bg-base-pict mx-auto relative h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12" clasname="flex" onClick={() => layerreset()}>       
 <div id="masksalmond" class="container invisible mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
 <div id="masksnatural" class="container invisible mx-auto relative bg-layer-natural h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
 <div id="maskstaupe" class="container invisible mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
@@ -60,12 +62,12 @@ export default function Home () {
     
      <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory hover:bg-grey ">
                <button>
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-18 bg-white-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-18 bg-white-light"  viewBox="0 0 24 48" stroke="currentColor">
                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>
                </button>
-                 <section  class="bg-gray-100 rounded-full border-1">
-                   <span class="inline-block"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()}/></span>
+                 <section>
+                   <span class="inline-block bg-gray-100 rounded-full border-1"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()}/></span>
                    <span lass="text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center"> Tanzania Almond</span>
                  </section>
                  <section  class="bg-gray-100 rounded-full border-1">
