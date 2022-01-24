@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function Home () {
      
 
-   document.getElementById('basepict').addEventListener('click', function() {
+/*   document.getElementById('basepict').addEventListener('click', function() {
     console.log('document.getElementById  document.getElementById !!!!');
-});
+});*/
      
   const layerreset = () => {
               console.log('layerreset layerreset!!!!');
