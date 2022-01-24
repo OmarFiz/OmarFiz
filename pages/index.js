@@ -34,6 +34,7 @@ export default function Home () {
     console.log('layerreset!!!!');
        if(document.getElementById('basepict').hasClass('flex')){
           console.log("hasClass hasClass hasClass")
+       }
        if(document.getElementById('masksalmond').clicked == true){
    console.log("masksalmond clicked")
      }
