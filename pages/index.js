@@ -7,12 +7,13 @@ export default function Home () {
      
 var reply_click = function()
 {
-    alert("Button clicked, id "+this.id+", text"+this.innerHTML);
+    console.log("Button clicked, id "+this.id+", text"+this.innerHTML);
 }
 
     const imageClick1 = () => {
-    console.log('imageClick1!!!!');
          document.getElementById('fingerprint1').onclick = reply_click;
+             console.log('imageClick1!!!!');
+
         document.getElementById('maskscrol').style.visibility = 'visible';
         document.getElementById('fingerprint1').style.visibility = 'hidden';
         document.getElementById('fingerprint2').style.visibility = 'hidden';
