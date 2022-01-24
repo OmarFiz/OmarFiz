@@ -5,7 +5,7 @@ import Image from "next/image";
      
 export default function Home () {
 
-    const imageClick1 = () => {
+  /*  const imageClick1 = () => {
     console.log('imageClick1!!!!');
         document.getElementById('maskscrol').style.visibility = 'visible';
         document.getElementById('fingerprint1').style.visibility = 'hidden';
@@ -14,7 +14,7 @@ export default function Home () {
         const imageClick2 = () => {
     console.log('imageClick2!!!!');
         document.getElementById('maskscrol').style.visibility = 'visible';
-    } 
+    } */
 
     const layeralmond = () => {
     console.log('layertaupe!!!!');
@@ -40,29 +40,21 @@ export default function Home () {
      
   const layerreset = () => {
     console.log('layerreset!!!!');
-       
-//document.getElementById('basepict').click(
-       function si (ev) {
-  console.log('function!!!!' + ev);
-       }
-//});
-       si ();
-       
-       if(document.getElementsByClassName('flex')){
-          console.log("hasClass flex")
-       }
-       if(document.getElementsByClassName('container')){
-          console.log("hasClass container")
-       }
-     
-       
-    
-       
-        document.getElementById('masksalmond').style.visibility = 'hidden';
-        document.getElementById('masksnatural').style.visibility = 'hidden';
-        document.getElementById('maskstaupe').style.visibility = 'hidden';
-        document.getElementById('fingerprint1').style.visibility = 'visible';
-        document.getElementById('fingerprint2').style.visibility = 'visible';
+         if const imageClick1 = () => {
+         console.log('imageClick1!!!!');
+             document.getElementById('maskscrol').style.visibility = 'visible';
+             document.getElementById('fingerprint1').style.visibility = 'hidden';
+             document.getElementById('fingerprint2').style.visibility = 'hidden';
+         } else if const imageClick2 = () => {
+         console.log('imageClick2!!!!');
+             document.getElementById('maskscrol').style.visibility = 'visible';
+         } else {
+             document.getElementById('masksalmond').style.visibility = 'hidden';
+             document.getElementById('masksnatural').style.visibility = 'hidden';
+             document.getElementById('maskstaupe').style.visibility = 'hidden';
+             document.getElementById('fingerprint1').style.visibility = 'visible';
+             document.getElementById('fingerprint2').style.visibility = 'visible';
+         }
 
     } 
 
