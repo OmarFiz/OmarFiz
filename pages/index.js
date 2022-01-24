@@ -38,9 +38,9 @@ export default function Home () {
        if(document.getElementById('basepict').clicked == true){
    console.log("basepict clicked")
      }
-     console.log(document.getElementById("masksalmond").value;
-     console.log(document.getElementById("basepict").value;
-     console.log(document.getElementById("maskscrol").value;
+     console.log(document.getElementById("masksalmond").value);
+     console.log(document.getElementById("basepict").value);
+     console.log(document.getElementById("maskscrol").value);
         document.getElementById('masksalmond').style.visibility = 'hidden';
         document.getElementById('masksnatural').style.visibility = 'hidden';
         document.getElementById('maskstaupe').style.visibility = 'hidden';
