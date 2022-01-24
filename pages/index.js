@@ -41,9 +41,12 @@ export default function Home () {
   const layerreset = () => {
     console.log('layerreset!!!!');
        
-document.getElementById('basepict').click(function(ev) {
-  console.log(ev);
-});
+//document.getElementById('basepict').click(
+       function si (ev) {
+  console.log('function!!!!' + ev);
+       }
+//});
+       si ();
        
        if(document.getElementsByClassName('flex')){
           console.log("hasClass flex")
