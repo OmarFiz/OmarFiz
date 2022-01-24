@@ -65,15 +65,12 @@ export default function Home () {
      <div id="fingerprint1" class="w-1/4 h-1/4 absolute top-1/3 left-3/4 rounded-lg p-4"><button><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick1()}/></button></div>
      <div id="fingerprint2" class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick2()}/></div>
 
- /*<div class="w-64 h-64 bg-red-100 absolute">
-  <div class="absolute inset-0 bg-cover bg-center z-0" ><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/></div>
-  <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>
-</div>*/
 
    <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory">
                <button>
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36 bg-white-light"  viewBox="0 0 24 24" stroke="currentColor">
-                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36 bg-white"  viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                 //<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>
                </button>
                  <section class=" h-20 w-20 bg-white-100 absolute">
