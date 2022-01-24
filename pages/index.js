@@ -76,8 +76,8 @@ export default function Home () {
                   </svg>
                </button>
                  <section onClick={() => layeralmond()}>
-                   <span class="inline-block h-24 w-24 bg-white"><img class="inline-block h-20 w-20 mt-2 ml-2 mb-2 mr-2" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/>
-                          <span class="inline-block opacity-0 hover:opacity-100 duration-300 inset-0 z-10 flex justify-right items-center text-4xl text-white font-semibold"> Tanzania Almond</span>
+                   <span class="inline-block h-24 w-24 bg-white"><img class="h-20 w-20 mt-2 ml-2 mb-2 mr-2" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/>
+                          <span class="opacity-0 hover:opacity-100 duration-300  flex justify-right items-center text-4xl text-white font-semibold"> Tanzania Almond</span>
                     </span>
                  </section>
                  <section  class="bg-gray-100 rounded-full border-1">
