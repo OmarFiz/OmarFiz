@@ -40,12 +40,12 @@ export default function Home () {
      
   const layerreset = () => {
     console.log('layerreset!!!!');
-         if const imageClick1 = () => {
+         if (const imageClick1 = ()) => {
          console.log('imageClick1!!!!');
              document.getElementById('maskscrol').style.visibility = 'visible';
              document.getElementById('fingerprint1').style.visibility = 'hidden';
              document.getElementById('fingerprint2').style.visibility = 'hidden';
-         } else if const imageClick2 = () => {
+         } else if (const imageClick2 = ()) => {
          console.log('imageClick2!!!!');
              document.getElementById('maskscrol').style.visibility = 'visible';
          } else {
