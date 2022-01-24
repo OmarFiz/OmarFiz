@@ -37,7 +37,7 @@ export default function Home () {
     } 
 
     const layeralmond = () => {
-    console.log('layertaupe!!!!');
+    console.log('layeralmond!!!!');
         document.getElementById('masksalmond').style.visibility = 'visible';
     } 
     
