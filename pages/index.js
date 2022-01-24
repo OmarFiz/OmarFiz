@@ -6,7 +6,9 @@ import Image from "next/image";
 export default function Home () {
      
 
-   
+   document.getElementById('img').addEventListener('click', function() {
+    console.log('document.getElementById  document.getElementById !!!!');
+});
      
   const layerreset = () => {
               console.log('layerreset layerreset!!!!');
@@ -73,9 +75,9 @@ export default function Home () {
                  //<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>
                </button>
-                 <section class=" h-20 w-20 bg-white-100" onClick={() => layeralmond()}>
-                   <span class="inline-block"><img class="h-20 w-20" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/></span>
-                   <span class="opacity-0 hover:opacity-100  inset-0 z-10 flex text-4xl text-white font-semibold"> Tanzania Almond</span>
+                 <section class=" h-20 w-20 bg-white" onClick={() => layeralmond()}>
+                   <span class="inline-block bg-white"><img class="h-20 w-20 mt-4 ml-0 mb-4 mr-4" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/></span>
+                   <span class="opacity-0 hover:opacity-100 duration-300 inset-0 z-10 flex text-4xl text-white font-semibold"> Tanzania Almond</span>
                  </section>
                  <section  class="bg-gray-100 rounded-full border-1">
                    <span class="inline-block"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187274393%2Fpreview?alt=media&token=1006c9f0-30ee-41e2-979e-0797df79d219" class=" h-20 w-20" alt="" onClick={() => layernatural()}/></span>
