@@ -5,7 +5,7 @@ import Image from "next/image";
      
 export default function Home () {
 
-    const imageClick1 = (ev) => {
+    const imageClick1 = () => {
     console.log('imageClick1!!!!' +ev);
         document.getElementById('maskscrol').style.visibility = 'visible';
         document.getElementById('fingerprint1').style.visibility = 'hidden';
