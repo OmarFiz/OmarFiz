@@ -35,7 +35,7 @@ export default function Home () {
      
      
      
-basepict.click(function(ev) {
+document.getElementById('basepict').click(function(ev) {
   console.log(ev);
 });
      
