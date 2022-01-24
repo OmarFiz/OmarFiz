@@ -60,9 +60,11 @@ export default function Home () {
 
   return (
        
-<div class="dark relative overflow-hidden flex justify-center items-center min-h-screen"> 
-  <img id="basepict" class="relative z-10 object-cover h-full w-full" src="hthttps://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/projects%2FdorptVQTHsbkYC60NSlt%2Fscenes%2F1567170849457-base?alt=media&token=cf8bcee2-bf89-4fd9-8bfd-9d4462348844" onClick={() => layerreset()}/>
+<div> 
+ <section class="dark relative overflow-hidden flex justify-center items-center min-h-screen">
 
+  <img id="basepict" class="relative z-10 object-cover h-full w-full" src="hthttps://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/projects%2FdorptVQTHsbkYC60NSlt%2Fscenes%2F1567170849457-base?alt=media&token=cf8bcee2-bf89-4fd9-8bfd-9d4462348844" onClick={() => layerreset()}/>
+</section>
        
        
        
