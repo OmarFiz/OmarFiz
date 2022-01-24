@@ -68,8 +68,8 @@ export default function Home () {
 
    <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory">
                <button>
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36"  fill="none" viewBox="0 0 24 24" stroke="#2f2f2f">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36"  fill="none" viewBox="0 0 24 24">
+                      <path stroke-transparent stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                  //<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                   </svg>
                </button>
@@ -86,8 +86,8 @@ export default function Home () {
                    <span> Tanzania Taupe</span>
                  </section>
                <button class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
-                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" >
+               <path stroke-white stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                </svg>
                </button>
      </div>
