@@ -5,8 +5,8 @@ import Image from "next/image";
      
 export default function Home () {
 
-  /*  const imageClick1 = () => {
-    console.log('imageClick1!!!!');
+    const imageClick1 = (ev) => {
+    console.log('imageClick1!!!!' +ev);
         document.getElementById('maskscrol').style.visibility = 'visible';
         document.getElementById('fingerprint1').style.visibility = 'hidden';
         document.getElementById('fingerprint2').style.visibility = 'hidden';
@@ -14,7 +14,7 @@ export default function Home () {
         const imageClick2 = () => {
     console.log('imageClick2!!!!');
         document.getElementById('maskscrol').style.visibility = 'visible';
-    } */
+    } 
 
     const layeralmond = () => {
     console.log('layertaupe!!!!');
@@ -39,22 +39,13 @@ export default function Home () {
      
      
   const layerreset = () => {
-    console.log('layerreset!!!!');
-         if (const imageClick1 = ()) => {
-         console.log('imageClick1!!!!');
-             document.getElementById('maskscrol').style.visibility = 'visible';
-             document.getElementById('fingerprint1').style.visibility = 'hidden';
-             document.getElementById('fingerprint2').style.visibility = 'hidden';
-         } else if (const imageClick2 = ()) => {
-         console.log('imageClick2!!!!');
-             document.getElementById('maskscrol').style.visibility = 'visible';
-         } else {
-             document.getElementById('masksalmond').style.visibility = 'hidden';
+ 
+           /*  document.getElementById('masksalmond').style.visibility = 'hidden';
              document.getElementById('masksnatural').style.visibility = 'hidden';
              document.getElementById('maskstaupe').style.visibility = 'hidden';
              document.getElementById('fingerprint1').style.visibility = 'visible';
              document.getElementById('fingerprint2').style.visibility = 'visible';
-         }
+         */
 
     } 
 
@@ -64,8 +55,8 @@ export default function Home () {
 <div id="masksnatural" class="container invisible mx-auto relative bg-layer-natural h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
 <div id="maskstaupe" class="container invisible mx-auto relative bg-layer-taupe h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12"/>
        
-     <div id="fingerprint1" class="w-1/4 h-1/4 absolute top-1/3 left-3/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick1()}/></div>
-     <div id="fingerprint2" class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick2()}/></div>
+     <div id="fingerprint1" class="w-1/4 h-1/4 absolute top-1/3 left-3/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick1(ev)}/></div>
+     <div id="fingerprint2" class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick2(ev)}/></div>
 
  <div class="w-64 h-64 bg-red-100 absolute">
   <div class="absolute inset-0 bg-cover bg-center z-0" ><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583"/></div>
