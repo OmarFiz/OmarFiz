@@ -11,12 +11,12 @@ export default function Home () {
   const layerreset = () => {
               console.log('layerreset layerreset!!!!');
 
-            document.getElementById('masksalmond').style.visibility = 'hidden';
+         /*   document.getElementById('masksalmond').style.visibility = 'hidden';
              document.getElementById('masksnatural').style.visibility = 'hidden';
              document.getElementById('maskstaupe').style.visibility = 'hidden';
         document.getElementById('maskscrol').style.visibility = 'hidden';
                     document.getElementById('fingerprint1').style.visibility = 'visible';
-             document.getElementById('fingerprint2').style.visibility = 'visible';
+             document.getElementById('fingerprint2').style.visibility = 'visible';*/
          
 
     } 
