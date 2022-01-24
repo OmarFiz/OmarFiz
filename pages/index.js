@@ -32,7 +32,7 @@ export default function Home () {
     } 
   const layerreset = () => {
     console.log('layerreset!!!!');
-       if(document.getElementById('basepict').hasClass('flex'){
+       if(document.getElementById('basepict').hasClass('flex')){
           console.log("hasClass hasClass hasClass")
        if(document.getElementById('masksalmond').clicked == true){
    console.log("masksalmond clicked")
