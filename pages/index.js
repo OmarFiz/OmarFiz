@@ -32,6 +32,15 @@ export default function Home () {
     } 
      
      
+     
+     
+     
+basepict.click(function(ev) {
+  console.log(ev);
+});
+     
+     
+     
   const layerreset = () => {
     console.log('layerreset!!!!');
        if(document.getElementsByClassName('flex')){
