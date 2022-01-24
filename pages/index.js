@@ -30,10 +30,15 @@ export default function Home () {
     console.log('layertaupe!!!!');
         document.getElementById('maskstaupe').style.visibility = 'visible';
     } 
+     
+     
   const layerreset = () => {
     console.log('layerreset!!!!');
-       if(document.getElementById('basepict').hasClass('flex')){
-          console.log("hasClass hasClass hasClass")
+       if(document.getElementById('flex')){
+          console.log("hasClass flex")
+       }
+       if(document.getElementById('flex')){
+          console.log("hasClass container")
        }
        if(document.getElementById('masksalmond').clicked == true){
    console.log("masksalmond clicked")
@@ -60,7 +65,12 @@ export default function Home () {
        
      <div id="fingerprint1" class="w-1/4 h-1/4 absolute top-1/3 left-3/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick1()}/></div>
      <div id="fingerprint2" class="w-1/4 h-1/4 absolute top-3/4 left-1/4 rounded-lg p-4"><img src="/imagenes/fingerprint.png" class="h-14 sm:h-14 hover:opacity-100" onClick={() => imageClick2()}/></div>
-    
+
+ <div class="w-64 h-64 bg-red-100 relative">
+  <div class="absolute inset-0 bg-cover bg-center z-0" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/3/3c/JumanjiTheNextLevelTeaserPoster.jpg')"></div>
+  <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>
+</div>
+
      <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory hover:bg-grey ">
                <button>
                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-18 bg-white-light"  viewBox="0 0 24 48" stroke="currentColor">
