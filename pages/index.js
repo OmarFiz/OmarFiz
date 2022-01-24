@@ -6,7 +6,19 @@ import Image from "next/image";
 export default function Home () {
      
 
+   
+     
+  const layerreset = () => {
+ 
+            document.getElementById('masksalmond').style.visibility = 'hidden';
+             document.getElementById('masksnatural').style.visibility = 'hidden';
+             document.getElementById('maskstaupe').style.visibility = 'hidden';
+             document.getElementById('fingerprint1').style.visibility = 'visible';
+             document.getElementById('fingerprint2').style.visibility = 'visible';
+         
 
+    } 
+  
     const imageClick1 = () => {
          document.getElementById('fingerprint1').onclick = console.log("Button clicked, id ");
              console.log('imageClick1!!!!');
@@ -40,18 +52,7 @@ export default function Home () {
      
      
      
-     
-     
-  const layerreset = () => {
- 
-           /*  document.getElementById('masksalmond').style.visibility = 'hidden';
-             document.getElementById('masksnatural').style.visibility = 'hidden';
-             document.getElementById('maskstaupe').style.visibility = 'hidden';
-             document.getElementById('fingerprint1').style.visibility = 'visible';
-             document.getElementById('fingerprint2').style.visibility = 'visible';
-         */
-
-    } 
+  
 
   return (
 <div id="basepict" class="container bg-base-pict mx-auto relative h-screen max-h-screen bg-cover bg-center bg-no-repeat min-h-screen py-6 flex flex-col justify-center sm:py-12" clasname="flex" onClick={() => layerreset()}>       
@@ -67,15 +68,15 @@ export default function Home () {
   <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Dwayne</div>
 </div>
 
-     <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory hover:bg-grey ">
+   /*  <div id="maskscrol"  class="absolute invisible h-32 w-50 scroll-snap-type-y-mandatory">
                <button>
                  <svg xmlns="http://www.w3.org/2000/svg" class="h-18 w-36 bg-white-light"  viewBox="0 0 24 24" stroke="currentColor">
                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-                  </svg>
+                  </svg>*/
                </button>
-                 <section>
+                 <section class=" h-20 w-20 bg-white-100 absolute">
                    <span ><img class="inline-block bg-gray-100 rounded-full border-1" src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187053154%2Fpreview?alt=media&token=d5dcbb60-8267-43d6-94e6-2ab245ce6583" class=" h-20 w-20" alt="" onClick={() => layeralmond()}/></span>
-                   <span lass="text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center"> Tanzania Almond</span>
+                   <span class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold"="text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center"> Tanzania Almond</span>
                  </section>
                  <section  class="bg-gray-100 rounded-full border-1">
                    <span class="inline-block"><img src="https://firebasestorage.googleapis.com/v0/b/porcelanosa-partners-spaces.appspot.com/o/materials%2F1563187274393%2Fpreview?alt=media&token=1006c9f0-30ee-41e2-979e-0797df79d219" class=" h-20 w-20" alt="" onClick={() => layernatural()}/></span>
