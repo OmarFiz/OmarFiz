@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home () {
      
 
-   document.getElementById('img').addEventListener('click', function() {
+   document.getElementById('app').addEventListener('click', function() {
     console.log('document.getElementById  document.getElementById !!!!');
 });
      
