@@ -19,8 +19,6 @@ export default function Home () {
         document.getElementById('maskscrol').style.visibility = 'hidden';
                     document.getElementById('fingerprint1').style.visibility = 'visible';
              document.getElementById('fingerprint2').style.visibility = 'visible';
-         
-
     } 
   
     const imageClick1 = () => {
